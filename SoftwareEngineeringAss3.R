@@ -36,3 +36,16 @@ gitDF[gitDF$full_name == "jtleek/datasharing", "created_at"]
 
 # The code above was sourced from Michael Galarnyk's blog, found at:
 # https://towardsdatascience.com/accessing-data-from-github-api-using-r-3633fb62cb08
+
+
+#Step1: Interrogating the GitHub API.  
+
+#The information about my github profile is stored in a data frame called 'myData'.  
+#I can access different parts of the data frame using the $ operator.
+
+myData <- fromJSON("https://api.github.com/users/juliaellen")
+myData$followers #No. followers I have
+myData$public_repos #No. public repositories i have
+
+
+
