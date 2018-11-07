@@ -18,3 +18,7 @@ myapp <- oauth_app(appname = "Assignment3",
 # Get OAuth credentials
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 
+# Use API
+gtoken <- config(token = github_token)
+req <- GET("https://api.github.com/users/jtleek/repos", gtoken)
+
