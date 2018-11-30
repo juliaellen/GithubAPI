@@ -86,7 +86,7 @@ myDataJSon
 #determine which are the most influential developers out of my followers.
 
 #Step 1: Processing the data from Github
-ollowersNames <- fromJSON("https://api.github.com/users/skeher/followers")
+followersNames <- fromJSON("https://api.github.com/users/juliaellen/followers")
 followersNames$login #shown previously, gets the user names of my followers
 
 a <- "https://api.github.com/users/"
