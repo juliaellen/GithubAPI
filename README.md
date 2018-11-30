@@ -1,9 +1,7 @@
 # GithubAPI
 Interrogate the Github API to retrive and display infromation about the logged in developer.
 
-
-I chose to analyse the number of followers I have. From this I will discover who my most influential follwers are.
-I believe the amount of follwers a github developer has gives some insight into the quality and reliability of their work.
+The data I chose to analyse is the number of followers I have, thus finding out who are the most influential developers that follow me. I believe the amount of GitHub followers a user has is indicitive of the quality of their work. This is the aspect of the software engineering process which I have elucidated.
 
 
 Interogating the Github API:
